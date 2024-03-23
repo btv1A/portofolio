@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2? family=poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-serif;
+}
+body {
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #23242a;
+	background-image: url('../item/hacker1.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 0 -100px;
+}
+
+.box {
+	position: relative;
+	width: 380px;
+	height: 460px;
+	background: #1c1c1c;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.box:before{
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 380px;
+	height: 460px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,
+		#45f3ff,#45f3ff);
+	animation: animate 4s linear infinite;
+}
+
+.box:after{
+	content: '';
+	position: absolute;
+	top: -50%;
+	left: -50%;
+	width: 380px;
+	height: 460px;
+	transform-origin: bottom right;
+	background: linear-gradient(0deg,transparent,
+		#45f3ff,#45f3ff);
+	animation: animate 4s linear infinite;
+	animation-delay: -6s;
+}
+
+@keyframes animate {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+.form{
+	position: absolute;
+	inset: 2px;
+	border-radius: 8px;
+	background: #28292d;
+	z-index: 10;
+}
+.foto {
+	width: 300px;
+	height: 350px;
+	background-image: url('../item/setya.jpg');
+	background-size: cover;
+	margin: auto;
+	border: 5px solid black;
+	margin-top: 15px;
+}
+
+.foto:hover {
+	width: 300px;
+	height: 350px;
+	background-image: url('../item/setya1.png');
+	background-size: cover;
+	margin: auto;
+	border: 2px solid black;
+	margin-top: 15px;
+	border-radius: 70px;
+}
+
+.nama{
+	margin-top: -5px;
+	font-size: 20px;
+	text-align: center;
+	color: #45f3ff;
+}
+
+
+.form a{
+	text-decoration: none;
+	color:  #45f3ff;
+}
+.button {
+	text-align: center;
+	margin-top: 15px;
+	background-color: #45f3ff ;
+}
+.tombol a {
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	padding: 5px;
+	margin-bottom: 10px;
+}

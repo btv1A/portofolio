@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portofolio</title>
+
+	<!-- font poppins -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;1,700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+
+	<!-- Navbar start -->
+	<nav class="navbar">
+		<a href="#" class="navbar-logo">My<span>Portofolio</span>.</a>
+		<div class="navbar-nav">
+			<a href="#">Home</a>
+			<a href="#about">About me</a>
+			<a href="#project">Project</a>
+			<a href="#contact">Contact</a>
+		</div>
+		<div class="navbar-extra">
+			<a href="#" id="search"><i data-feather="search"></i></a>
+			<a href="page/cv.html" id="download"><i data-feather="download"></i></a>
+			<a href="#" id="menu"><i data-feather="menu"></i></a>
+		</div>
+	</nav>
+
+	<!-- Navbar end -->
+	<!-- hero section start -->
+		<section class="hero" id="home">
+			<main class="content">
+				<h1>welcome to My<span>Portofolio</span>.</h1>
+				<p> website ini berisi beberapa project yang telah saya kerjakan </p>
+				<a href="page/cv.html" class="cta"><button id="btn1">Contact me</button></a>
+			</main>
+			<div class="cont">
+				<h1 id="nh1"><span>Hi!</span> My Name is Setya Hadi Wijaya</h1>
+			</div>
+			<div class="cont2">
+				<h1 id="nh2">I'm From Baturaja city,South Sumatera</h1>
+			</div>
+			<div class="cont3">
+				<h1 id="nh3">I graduated from D3 Informatics Management from Sriwijaya University</h1>
+			</div>
+			<div class="cont4">
+				<h1 id="nh4">I have skills in web designer, front-end web developer, UI/UX designer</h1>
+			</div>
+			<div class="foto">
+				<img src="item/setya2.png" height="640" width="550">
+			</div>
+			<div class="pic">
+				<img src="item/html2.png" width="150" height="100">
+				<img src="item/JavaScript.png" width="170" height="100">
+				<img src="item/flutter.png" width="200" height="170">
+				<img src="item/figma.png" width="200" height="100">
+			</div>
+		</section>
+		
+		
+	<!-- hero section end -->
+	<section class="about" id="about">
+		<h3>About me</h3>
+
+		<div class="row">
+			<div class="about-img">
+				<img src="item/setya.jpg" alt="Aboutme">
+			</div>
+			<div class="content">
+				<h3>Tentang saya</h3>
+				<p>Perkenalkan nama saya Setya Hadi Wijaya, saya tinggal di kota Baturaja, provinsi Sumatera Selatan, Indonesia.
+					saya lahir pada tanggal 09 Oktober 1999, saya lulusan D3 Manajemen informatika Universitas Sriwijaya, saya anak pertama dari 3 saudara,
+					saya memiliki ketertarikan pada aktivitas desaining atau mendesain suatu website,mobile app, dan User Interface design,
+					pada masa kuliah saya memiliki pengalaman magang di PT Semen Baturaja, sebagai Web developer dengan 3 teman satu kelompok saya, saat itu kami membuat 
+					website pencatatan aset perusahaan, dan mendapat nilai baik saat magang.
+					oleh karena itu saya tertarik pada pekerjaan front-end web developer, UI/UX Design, Mobile App developer.
+				</p>
+			</div>
+		</div>
+	</section>
+
+		<!--Product section-->
+		<section class="project" id="project">
+			<h3>Project saya</h3>
+			<p>Selamat datang di website portofolio pribadi saya, dan berikut beberapa project yang pernah saya buat:</p>
+			<div class="row">
+				<div class="produk-card">
+					<img src="item/ss1.png" alt="tshirt 1" class="produk-card-img">
+					<a href="" onclick="alert ('lanjutkan download project?')" download><h4> UI MoneyMan App </h4></a>
+					<p class="produk-card-price">Aplikasi Management uang</p>
+				</div>
+			
+	
+			</div>
+			<!--Contact Section-->
+			<section class="contact" id="contact">
+				<h3>Contact me</h3>
+				<p>berikut adalah beberapa kontak saya yang dapat di hubungi</p>
+				<div class="kontak">
+					<a href="http://www.gmail.com/setyahadiwijaya1@gmail.com"><button><i data-feather="mail" id="gm"></i>Gmail</button></a>
+					<a href="http://www.whatsapp.com/089654603821"><button><i data-feather="phone" id="phn"></i>whatsapp</button></a>
+					<a href="http://www.instagram.com/setya.mv"><button><i data-feather="instagram" id="ig"></i>Instagram</button></a>
+					<a href="http://www.facebook.com/setya.wijaya"><button><i data-feather="facebook" id="fcb"></i>Facebook</button></a>
+					<a href="http://www.facebook.com/setya.wijaya"><button><i data-feather="linkedin" id="lnk"></i>LinkedIn</button></a>
+				</div>
+			</section>
+
+
+	<!-- feather icon -->
+	<script>
+		feather.replace();
+	</script>
+	<script src="js/javascript.js"></script>
+</body>
+</html>
